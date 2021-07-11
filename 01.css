@@ -1,0 +1,38 @@
+	body{
+		background: black;
+	}
+	.a1{
+		text-decoration: none;
+		color: red;
+		font-size: 110px;
+		margin: 0;
+		font-family: 標楷體;
+	}
+	h1{
+		color: red;
+		text-align: center;
+		font-family: 標楷體;
+		font-size: 110px;
+	}
+	.hr1{
+		border: 5px solid red;
+		color: red;
+		width: 70%;
+		background: red;
+	}
+	.d1{
+		margin: auto;
+		background: gainsboro;
+		text-align: center;
+	}
+	.d2{
+		background: gainsboro;
+		text-align: center;
+	}
+	.h31{
+		font-weight: bold;
+		font-size: 55px;
+		color: red;
+		position: relative;
+		left: 70PX;
+	}
