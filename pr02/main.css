@@ -8,6 +8,10 @@ body{
     justify-content: left;
     background-color: #f1f1ff;
 }
+h1{
+    text-align: center;
+    color: black;
+}
 .skills{
     width: 100%;
     min-width: 600px;
