@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="skills">
+        <div class="skill">
+            <div class="skill-name">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-par" par = "100"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-par" par = "80"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-name">JS</div>
+            <div class="skill-bar">
+                <div class="skill-par" par = "50"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".skill-par").each(function(){
+            var $this = $(this);
+            var par = $this.attr('par')
+            $this.css('width',par+'%')
+            $({animatedValue:0}).animate({animatedValue:par}),({
+                duration:1000,
+                stop: function(){
+                    $this.attr('par', Math.floor(this.animatedValue)+'%')
+                },
+                complete :function(){
+                    $this.attr('par', Math.floor(this.animatedValue)+'%')
+                }
+            });
+        });
+    </script>
+</body>
+</html>
