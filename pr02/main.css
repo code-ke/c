@@ -4,8 +4,7 @@ body{
     font-family: 'Open sans', sans-serif;
     min-height: 100vh;
     display: flex;  
-    align-items:center;
-    justify-content: left;
+    justify-content: center;
     background-color: #f1f1ff;
 }
 h1{
@@ -17,6 +16,7 @@ h1{
     min-width: 600px;
     padding: 0 400px;
     text-align: center;
+    min-width: 320px;
 }
 .skill-name{
     font-size: 18px;
