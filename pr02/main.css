@@ -3,9 +3,9 @@ body{
     padding: 0;
     font-family: 'Open sans', sans-serif;
     min-height: 100vh;
-    display: flex;
+    display: flex;  
     align-items:center;
-    justify-content: center;
+    justify-content: left;
     background-color: #f1f1ff;
 }
 .skills{
