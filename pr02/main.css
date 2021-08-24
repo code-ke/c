@@ -12,17 +12,20 @@ body{
     width: 100%;
     min-width: 600px;
     padding: 0 400px;
+    text-align: center;
 }
 .skill-name{
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 40px 0;
+    
 }
 .skill-bar{
     height: 20px;
     background: #cacaca;
     border-radius: 8px;
+    text-align: center;
 }
 .skill-par{
     height: 20px;
@@ -31,6 +34,7 @@ body{
     width: 0;
     transition: 1s linear;
     position: relative;
+    text-align: center;
 }
 .skill-par::before{
  content: attr(par);
