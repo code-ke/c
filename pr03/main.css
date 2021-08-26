@@ -7,11 +7,20 @@
     background-color: black;
     height: 100vh;
     }
+   iframe{
+        width: 30%;
+        height: 70% ;
+        position: absolute;
+        top: 0;
+        
+        left: 35%;
+    
+    }
     
     .container-clock {
     /* 置中 */
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
     max-width: 800px;
     transform: translate(-50%, -50%);

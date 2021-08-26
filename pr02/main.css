@@ -13,10 +13,10 @@ h1{
 }
 .skills{
     width: 100%;
-    min-width: 600px;
+    min-width: 400px;
     padding: 0 400px;
     text-align: center;
-    min-width: 320px;
+    min-width: 100px;
 }
 .skill-name{
     font-size: 18px;
