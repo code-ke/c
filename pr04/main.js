@@ -37,5 +37,3 @@ function startTime() {
     updateTime();
     window.setInterval("updateTime()", 1);
 }
-script.js
-目前顯示的是「script.js」。
