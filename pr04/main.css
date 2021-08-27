@@ -17,29 +17,29 @@
     
     .container-clock {
     /* 置中 */
-    position: fixed;
+    position: absolute;
     top:85%;
     left: 50%;
     max-width: 800px;
     transform: translate(-50%, -50%);
     background-color: transparent;
-    border: 3px solid red;
-    color: red;
-    width: 340px;
+    border: 6px solid #00D600	;
+    color: #FFAC12	;
+    width: 400px;
     padding: 10px;
-    border-radius: 40px;
+    border-radius: 45px;
     transition: 0.5s;
     animation:texttime 1s infinite; 
     }
     @keyframes texttime{
         from{
-            background-color: red;
+            background-color: #00D600;
             color: black;
-            box-shadow: 0 0 60px red;
+            box-shadow: 0 0 60px #00D600;
         }
         to{
             background-color: transparent;
-            color: red;
+            color: black	;
         }
     }
     p{
@@ -47,13 +47,13 @@
     }
     
     .time {
-    font-size: 50px;
+    font-size: 52px;
     font-weight: 600px;
     text-align: center;
     }
     
     .date {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     font-style: italic;
     }
